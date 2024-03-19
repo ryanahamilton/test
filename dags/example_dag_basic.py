@@ -27,7 +27,7 @@ from airflow.decorators import (
 )  # If set, this tag is shown in the DAG view of the Airflow UI
 def example_dag_basic():
     """
-    ### Basic ETL Dag 1
+    ### Basic ETL Dag
     This is a simple ETL data pipeline example that demonstrates the use of
     the TaskFlow API using three simple tasks for extract, transform, and load.
     For more information on Airflow's TaskFlow API, reference documentation here:
